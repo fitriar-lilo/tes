@@ -1,0 +1,18 @@
+# 1. Initialize git in your project directory
+git init
+
+# 2. Add your index.html file to the staging area
+git add index.html
+
+# 3. Commit the file with a descriptive message
+git commit -m "Initial commit: Add curve graphing digital learning activity"
+
+# 4. Rename the default branch to main
+git branch -M main
+
+# 5. Link your local project to your GitHub repository
+# Replace YOUR-USERNAME and YOUR-REPO-NAME with your actual GitHub details
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+
+# 6. Push the code to GitHub
+git push -u origin main
